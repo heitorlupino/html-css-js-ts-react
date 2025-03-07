@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
+    <!-- 4 - Estilização Externa -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 5 - Ordem do CSS -->
+     <link rel="stylesheet" href="css/list.css">
     <style>
         /* 3 - Estilização Interna */
         p{
@@ -12,8 +16,6 @@
             font-weight: bold;
         }
     </style>
-    <!-- 4 - Estilização Externa -->
-    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- 1 - Estilização Inline -->
@@ -21,14 +23,25 @@
     <h1>Esse título não recebe a estilização</h1>
 
     <!-- 2 - Múltiplas Regras -->
-     <h1 style="color: blue; font-size: 50px; border-bottom: 1px solid red;">Mudar cor e tamanho da fonte </h1>
+    <h1 style="color: blue; font-size: 50px; border-bottom: 1px solid red;">Mudar cor e tamanho da fonte</h1>
 
     <!-- 3 - Estilização Interna -->
-     <p>Eu fui estilizado pelo Interno</p>
-     <p>Esse parágrafo também foi</p>
-     <p>Todos os parágrafos vão receber essa cor!</p>
+    <p>Eu fui estilizado pelo Interno</p>
+    <p>Esse parágrafo também foi</p>
+    <p>Todos os parágrafos vão receber essa cor!</p>
 
-     <!-- 4 - Estilização Externa -->
-     <h3>Meu título verde!</h3>
+    <!-- 4 - Estilização Externa -->
+    <h3>Meu título verde!</h3>
+
+    <!-- 5 - Ordem do CSS -->
+    <p style="color: red;">Ordem do CSS</p>
+    <p>Ordem do CSS 2 - Arquivos importados por último tem mais prioridade</p>
+
+    <!-- 6 - Múltiplos CSS -->
+    <ul>
+        <li>Banana</li>
+        <li>Maçã</li>
+        <li>Abacate</li>
+    </ul>
 </body>
 </html> 
