@@ -24,3 +24,16 @@ p{
     color: yellow;
     padding: 10px;
 }
+
+/* 10 - Ordem das coisas */
+h2{
+    border-bottom: 2px solid red;
+}
+
+.titulo{
+    border-bottom: 3px solid blue;
+}
+
+#outro-titulo{
+    border-bottom: 4px solid green;
+}
