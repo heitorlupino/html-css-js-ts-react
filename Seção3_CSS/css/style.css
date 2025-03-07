@@ -9,6 +9,7 @@ h3{
 
 p{
     color: blueviolet;
+    font-size: 30px;
 }
 
 /* 8 - Classes*/
@@ -36,4 +37,53 @@ h2{
 
 #outro-titulo{
     border-bottom: 4px solid green;
+}
+
+/* 12 - nome de cor */
+.color-name{
+    color: crimson;
+}
+
+.hex{
+    color: #55A398;
+}
+
+.hex_2{
+    color: #76C474;
+}
+
+/* 13 - Mais sobre cor Hexadecimal */
+.simple_hex{
+    color: #123;
+}
+
+.simple_hex_2{
+    color: #5A1;
+}
+
+/* 14 - Cor RGB */
+.rgb{
+    color: rgb(255, 00, 00);
+}
+
+.mixed_rgb{
+    color: rgb(120, 68, 216);
+}
+
+/* 15 - Cor RGBa */
+.rgba{
+    color: rgba(100, 199, 45, 0.3);
+}
+
+.mixed_rgba{
+    color: rgba(100, 199, 45, 1);
+}
+
+/* 16 - Cor HSL */
+.hsl{
+    color: hsl(250, 59%, 61%);
+}
+
+.mixed_hsl{
+    color: hsl(120, 90%, 50%);
 }
