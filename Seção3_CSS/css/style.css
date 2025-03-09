@@ -1,16 +1,17 @@
 /* 4 - Estilização Externa */
 body{
     padding-bottom: 500px;
+    text-align: justify;
 }
 
 h3{
     color: green;
 }
 
-p{
+/* p{
     color: blueviolet;
     font-size: 30px;
-}
+} */
 
 /* 8 - Classes*/
 .paragraph{
@@ -97,4 +98,42 @@ h2{
 .bg_2{
     background-color: rgb(200, 20, 40);
     color: rgb(0, 234, 255);
+}
+
+/* 18 - Opacidade background*/
+.bg_opacity{
+    background-color: green;
+    opacity: 0.2;
+}
+
+.bg_opacity_2{
+    background-color: #999;
+    color: #000;
+    opacity: 0.8;
+}
+
+/* 19 - RGBA Opacidade */
+.rgba_opacity{
+    background-color: rgba(90, 120, 20, 0.2);
+    color: #000;
+}
+
+/* 20 - Background Image */
+.bg_image{
+    background-image: url(../img/nature.jpg);
+    padding: 10px;
+    margin: 20px 0px;
+    color: #fff;
+}
+
+/* 21 - Centralizando bg image */
+.not_centered_bg, .centered_bg{
+    height: 400px;
+    width: 400px;
+    background-image: url(../img/bridge.jpg);
+}
+
+.centered_bg{
+    background-position: center;
+    background-size: cover;
 }

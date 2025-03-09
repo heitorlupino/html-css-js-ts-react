@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
+    <style>
+        /* 3 - Estilização Interna */
+        p{
+            /* color: gold; */
+            font-size: 40px;
+            /* font-weight: bold; */
+        }
+    </style>
     <!-- 4 - Estilização Externa -->
     <link rel="stylesheet" href="css/style.css">
     <!-- 5 - Ordem do CSS -->
      <link rel="stylesheet" href="css/list.css">
-    <style>
-        /* 3 - Estilização Interna */
-        p{
-            color: gold;
-            font-size: 40px;
-            font-weight: bold;
-        }
-    </style>
 </head>
 <body>
     <!-- 1 - Estilização Inline -->
@@ -111,5 +111,32 @@
     <!-- 17 - Background-color -->
     <p class="bg">Mude o meu Background-color</p>
     <h2 class="bg_2">Outra variação de Background-color</h2>
+
+    <!-- 18 - Opacidade no Background -->
+    <div class="bg_opacity">
+        <p>Estou aqui!</p>
+    </div>
+
+    <div class="bg_opacity_2">
+        <p>Estou aqui quase visível!</p>
+        <p>Aqui muda a opacidade tanto do fundo quanto da cor da letra</p>
+    </div>
+
+    <!-- 19 - RGBA com opacidade -->
+    <div class="rgba_opacity">
+        <h1>Este título precisa estar visível</h1>
+        <p>Aqui muda apenas a opacidade do fundo, deixando a cor das letras normal, sem opacidade.</p>
+    </div>
+
+    <!-- 20 - Background Image -->
+    <div class="bg_image">
+        <h1>Este título tem uma imagem!</h1>
+        <p>Para colocar a imagem, foi preciso colocar ../ para conseguirmos voltar um diretório, sendo possível localizar a pasta que contem as imagens! </p>
+    </div>
+
+    <!-- 21 - Centralizando uma Imagem do Background -->
+    <div class="not_centered_bg"></div>
+    <div class="centered_bg"></div>
+    <p>O <strong>background-size: cover;</strong> define que a imagem de fundo deve preencher todo o container (div), sem distorções!</p>
 </body>
 </html> 
