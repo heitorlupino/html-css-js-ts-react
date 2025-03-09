@@ -137,3 +137,72 @@ h2{
     background-position: center;
     background-size: cover;
 }
+
+/* 22 - largura e altura */
+.height_width{
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+
+.height_width_2{
+    height: 300px;
+    background-color: #333;
+    margin-bottom: 10px;
+}
+
+/* 23 - Padding */
+.without_padding{
+    background-color: #111;
+    color: #fff;
+}
+
+.padding{
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+}
+
+/*  24 - Padding Individual*/
+.padding_individual{
+    background-color: #232;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+/* 25 - Shorthand padding */
+.shorthand_padding{
+    background-color: #444;
+    color: #fff;
+    padding: 6px 12px 18px 24px;
+}
+
+.shorthand_padding_2{
+    background-color: #888;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+/* 26 - Padding com width */
+.without_border-box{
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box{
+    background-color: #666;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.border-box strong{
+    color: #000;
+    font-weight: normal;
+}
