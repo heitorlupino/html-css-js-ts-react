@@ -229,5 +229,35 @@
     <!-- 40 - Font size -->
     <h4 class="small">Título pequeno</h4>
     <h4 class="big">Título grande</h4>
+
+    <!-- 41 - Display -->
+    <div class="inline-box">a</div>
+    <div class="inline-box">b</div>
+    <div class="inline-box">c</div>
+    <span class="block">Teste 1</span>
+    <span class="block">Teste 2</span>
+
+    <!-- 42 - Escondendo elementos -->
+    <p class="invisible">Me encontre se puder!</p>
+    <!-- Para escondermos um elemento, utlizamos a tag display com o valor none, assim ele vai "esconder" o elemento. -->
+
+    <!-- 43 - Posição dos elementos - Static -->
+    <div class="static">
+        <p class="p-static">O valor de static na position não faz nada com o elemento.</p>
+        <p class="p-static">Porque é o valor padrão, todo elemento possui este tipo de posição.</p>
+    </div>
+
+    <!-- 44 - Position Relative -->
+    <div class="relative">
+        <p class="p-relative">Com a position configurada com relative, podemos mover os elementos pela tela, através das configurações top, left, right e bottom</p>
+    </div>
+    <p>Eu sou um parágrafo que mostra o problema de usar relative</p>
+
+    <!-- 45 - Position Absolute -->
+    <div class="absolute">
+        <p class="p-absolute">Com o valor de absolute em position, o elemento pode ser movido pela tela toda.</p>
+        <p class="p-absolute">Quebrando o fluxo do HTML, coisa que o static e relative não faziam, seguiam o fluxo</p>
+    </div>
+    <p>Eu sou um parágrafo que mostra o problema de usar absolute</p>
 </body>
 </html> 
