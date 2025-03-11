@@ -30,6 +30,11 @@
     <p>Esse parágrafo também foi</p>
     <p>Todos os parágrafos vão receber essa cor!</p>
 
+    <!-- 48 - Position Sticky -->
+    <div class="sticky">
+        <p class="p-sticky">O elemento também fica fixo na tela, mas quando o elemento volta para a sua posição original, ele se comporta como relative.</p>
+    </div>
+
     <!-- 4 - Estilização Externa -->
     <h3>Meu título verde!</h3>
 
@@ -259,5 +264,25 @@
         <p class="p-absolute">Quebrando o fluxo do HTML, coisa que o static e relative não faziam, seguiam o fluxo</p>
     </div>
     <p>Eu sou um parágrafo que mostra o problema de usar absolute</p>
+
+    <!-- 46 - Relative com Absolute -->
+    <div class="relative-container">
+        <div class="absolute-1"></div>
+        <div class="absolute-2"></div>
+    </div>
+    <p class="paragrafo-absolute">Um elemento com position absolute é ligado ao elemento mais próximo com posição relativa, se não é ligado ao body.</p>
+    <p class="paragrafo-absolute">Então com um container com posição relative, podemos controlar melhor a área de ação dos elementos com absolute.</p>
+
+    <!-- 47 - Position Sticky -->
+    <div class="fixed">
+        <p class="p-fixed">O elemento pode ser fixado na tela, permanece na mesma posição.</p>
+    </div>
+
+    <!-- 49 - z-index -->
+    <div class="relative-container">
+        <div class="absolute-3"></div>
+        <div class="absolute-4"></div>
+        <div class="absolute-5"></div>
+    </div>
 </body>
 </html> 
