@@ -47,6 +47,7 @@ html{
 /* Quotes */
 .quotes-container{
     background-color: #ddd;
+    margin: 40px;
     padding: 30px;
 }
 
@@ -80,6 +81,8 @@ html{
     text-align: center;
     margin: 15px 0;
     padding: 10px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
 }
 
 .img-bold figcaption, .featured-image figcaption{
