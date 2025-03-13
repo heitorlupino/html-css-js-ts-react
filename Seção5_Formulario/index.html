@@ -15,12 +15,14 @@
             <label>Nome:</label>
             <input type="text">
         </div>
+
         <!-- 3 - Atributo name -->
         <div>
             <!-- 4 - Atributo label -->
             <label for="age">Idade:</label>
             <input type="text" name="age">
         </div>
+
         <!-- 6 - Select -->
         <div>
             <label for="job">Selecione a sua profissão:</label>
@@ -30,6 +32,7 @@
                 <option value="devops">DevOps</option>
             </select>
         </div>
+
         <!-- 7 - Atributo selected -->
         <div>
             <label for="contract">Você leu os termos do contrato?</label>
@@ -38,6 +41,7 @@
                 <option value="não" selected>Não</option>
             </select>
         </div>
+
         <!-- 8 - Multiplas opções -->
         <div>
             <label for="itens">Selecione os itens desejados:</label>
@@ -48,11 +52,13 @@
                 <option value="milho">Milho</option>
             </select>
         </div>
+
         <!-- 9 - Elemento textarea -->
         <div>
             <label for="comentario">Escreva abaixo o que você achou do post:</label>
             <textarea name="comentario"></textarea>
         </div>
+
         <!-- 10 - Fieldset e legend -->
         <div>
             <fieldset>
@@ -63,6 +69,7 @@
                 <input type="text" name="lastname">
             </fieldset>
         </div>
+
         <!-- 11 - Datalist -->
         <div>
             <label for="flavor">Escolha o sabor:</label>
@@ -75,6 +82,7 @@
                 <option value="Chocolate"></option>
             </datalist>
         </div>
+
         <!-- 12 - Input password -->
         <div>
             <fieldset>
@@ -83,6 +91,7 @@
                 <input type="password" name="password">
             </fieldset>
         </div>
+
         <!-- 14 - Input radio -->
         <div>
             <label for="car_model">Escolha o modelo do seu carro:</label>
@@ -99,6 +108,7 @@
                 <label for="mercedes">Mercedes</label>
             </div>
         </div>
+
         <!-- 15 - Input checkbox -->
         <div>
             <label for="optionals">Opções para o carro:</label>
@@ -115,8 +125,58 @@
                 <label for="hybrid">Híbrido</label>
             </div>
         </div>
+
+        <!-- 16 - Datas -->
+        <div>
+            <label for="birthday">Data de nascimento:</label>
+            <input type="date" name="birthday">
+        </div>
+
+        <!-- 17 - arquivos -->
+        <div>
+            <label for="image">Insira a sua imagem:</label>
+            <input type="file" name="image">
+        </div>
+
+        <!-- 18 - Input number -->
+        <div>
+            <label for="salary">Quanto você ganha no seu emprego atual?</label>
+            <input type="number" name="salary">
+        </div>
+
+        <!-- 19 - Input e-mail -->
+        <div>
+            <label for="email">Digite o seu e-mail</label>
+            <input type="email" name="email">
+        </div>
+
+        <!-- 20 - value -->
+        <div>
+            <label for="value">Digite algum valor:</label>
+            <input type="text" value="O input ja veio preenchido" name="value">
+        </div>
+
+        <!-- 21 - disabled -->
+        <div>
+            <p>Tente mudar o valor:</p>
+            <input type="text" value="não precisa preencher" disabled>
+        </div>
+
+        <!-- 22 - placeholder / dicas para o usuário -->
+        <div>
+            <label for="currentjob">Digite a sua profissão:</label>
+            <input type="text" name="currentjob" placeholder="No que você está trabalhando agora?">
+        </div>
+
+        <!-- 23 - required / te obriga a preencher -->
+        <div>
+            <label for="birthyear">Ano nascimento</label>
+            <input type="text" name="birthyear" placeholder="Digite o ano que você nasceu" required>
+        </div>
+
         <!-- 13 - Reiniciando o form -->
         <input type="reset" value="Limpar">
+
         <!-- 5 - Envio de form -->
         <input type="submit" value="Cadastrar">
     </form>
