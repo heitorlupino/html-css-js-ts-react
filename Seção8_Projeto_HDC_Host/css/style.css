@@ -193,6 +193,7 @@ nav{
     color: #fff;
     background-color: #202b34;
     padding: 50px 0;
+    border-radius: 5px 5px 0 0;
 }
 
 .plan .plan-btn{
@@ -201,6 +202,7 @@ nav{
     font-size: 24px;
     height: 75px;
     line-height: 75px;
+    border-radius: 0 0 5px 5px;
     cursor: pointer;
 }
 
