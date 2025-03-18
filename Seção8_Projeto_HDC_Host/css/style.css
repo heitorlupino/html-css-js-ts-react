@@ -59,7 +59,7 @@ nav{
 .default-btn{
     padding: 15px 20px;
     background-color: #2cc76a;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 
 .navbar-items .default-btn:hover{
